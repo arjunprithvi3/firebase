@@ -1,0 +1,33 @@
+delete build folder
+
+1.npm install -g firebase-tools
+
+2.firebase login
+
+3.firebase login --reauth (optional)
+
+4.firebase init
+
+5.ready to proceed : y
+
+6.select hosting:configure files for firebase hosting
+
+7.select use existing project
+
+8.select the project
+
+? What do you want to use as your public directory? build
+? Configure as a single-page app (rewrite all urls to /index.html)? No
+? Set up automatic builds and deploys with GitHub? No
++  Wrote build/404.html
++  Wrote build/index.html
+
+i  Writing configuration info to firebase.json...
+i  Writing project information to .firebaserc...
+
++  Firebase initialization complete!
+
+enter npm run build then run firebase deploy
+
+
+9.firebase deploy
